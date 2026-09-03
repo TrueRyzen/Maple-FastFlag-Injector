@@ -8,10 +8,12 @@
 
 - [Features](#features)
 - [Installation](#installation)
+- [Install from Source](#install-from-source)
 - [Usage](#usage)
 - [FastFlag Types](#fastflag-types)
 - [How It Works](#how-it-works)
 - [Preset Reference](#preset-reference)
+- [Common FastFlags](#common-fastflags)
 - [Security and Privacy](#security-and-privacy)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
@@ -85,17 +87,41 @@
 
 ## Installation
 
+### Pre-built Executable (Recommended)
+
+1. Download the latest release from the [Releases](https://github.com/yourusername/maple-fflag-injector/releases) page
+2. Extract the ZIP file
+3. Run `Maple.exe` as administrator
+4. No additional dependencies required
+
+### System Requirements
+
+- Windows 10 or Windows 11
+- 64-bit operating system
+- 200MB available disk space
+- 4GB RAM recommended
+- Administrator privileges (required for memory injection)
+
+---
+
+## Install from Source
+
 ### Prerequisites
 
 - Python 3.8 or higher
-- Windows OS (Roblox is Windows-only)
+- pip (Python package manager)
+- Git (optional, for cloning)
 
-### Setup
+### Step-by-Step Installation
 
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/maple-fflag-injector.git
 cd maple-fflag-injector
+
+# Create a virtual environment (recommended)
+python -m venv venv
+venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
